@@ -1,6 +1,6 @@
-let data = ""
+let data = "";
 $.getJSON("PageData.json",function(json){
-    alert(json.pages.pages.home.id)
+    alert(json.pages.pages.home.id);
 });
 
 let current = "";
