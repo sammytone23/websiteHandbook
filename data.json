@@ -135,7 +135,90 @@ data = {
             }
         },
         "pages":{
-            //TODO
+            "home":{
+                "id":"home",
+                "title":"Home",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "components":{
+                "id":"components",
+                "title":"Components",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "input":{
+                "id":"input",
+                "title":"Input",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "output":{
+                "id":"output",
+                "title":"Output",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "processor":{
+                "id":"processor",
+                "title":"Processing",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "storage":{
+                "id":"storage",
+                "title":"Storage",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "mouse":{
+                "id":"mouse",
+                "title":"Mouse",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "keyboard":{
+                "id":"keyboard",
+                "title":"Keyboard",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "plasmaScreen":{
+                "id":"plasmaScreen",
+                "title":"Plasma Screen",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "speakers":{
+                "id":"speakers",
+                "title":"Speakers",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "cpu":{
+                "id":"cpu",
+                "title":"CPU",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "gpu":{
+                "id":"gpu",
+                "title":"GPU",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "hdd":{
+                "id":"hdd",
+                "title":"HDD",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
+            "ram":{
+                "id":"ram",
+                "title":"RAM",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            },
         }
     }
 }

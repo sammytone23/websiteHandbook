@@ -3,13 +3,21 @@
     Test
 </title>
 <html>
-    <button id="testButton"> 
-        Test
-    </button>
+    <div id="header"></div>
+    <body id=body>
+        <h1 id="title"></h1>
+        <img id="bodyImg" src="">
+        <p id="bodyText"></p>
+    </body>
 </html>
 <link rel="stylesheet" href="main.css">
 <script type="text/javascript" src="data.json"></script>
 <script>
-let pageData = JSON.parse(data)
-//TODO
+let pageData = JSON.parse(data);
+current="home";
+pageData.pages.pages.forEach(page =>{
+    if(page.id == current){
+        
+    }
+});
 </script>
