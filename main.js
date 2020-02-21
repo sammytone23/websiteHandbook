@@ -1,5 +1,5 @@
 let data = ""
-$.getJSON('PageData.json',function(json){
+$.getJSON("PageData.json",function(json){
     console.log(json.pages.pages.home.id)
 });
 
