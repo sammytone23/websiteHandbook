@@ -1,4 +1,4 @@
-# ILikePans' Handbook for Computer peripherals
+# Sammytone23's Handbook for Computer peripherals
 In this document, it will be described what the aim of this webisite is, what it does, and how.
 
 ### What the aim is:
