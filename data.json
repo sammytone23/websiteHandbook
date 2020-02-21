@@ -1,4 +1,4 @@
-{
+data = {
     "pages":{
         "links":{
             "home":{
@@ -18,7 +18,8 @@
                 "text":"Components",
                 "type":"hover",
                 "children":["input","output","processor","storage"],
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdown"
             },
             "input":{
                 "isChild":true,
@@ -27,7 +28,8 @@
                 "text":"Input Devices",
                 "type":"hover",
                 "children":["mouse","keyboard"],
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownChild"
             },
             "output":{
                 "isChild":true,
@@ -36,7 +38,8 @@
                 "text":"Output Devices",
                 "type":"hover",
                 "children":["plasmaScreen","speakers"],
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownChild"
             },
             "processor":{
                 "isChild":true,
@@ -45,7 +48,8 @@
                 "text":"Processing Devices",
                 "type":"hover",
                 "children":["cpu","gpu"],
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownChild"
             },
             "storage":{
                 "isChild":true,
@@ -54,7 +58,8 @@
                 "text":"Storage Devices",
                 "type":"hover",
                 "children":["hdd","ram"],
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownChild"
             },
             "mouse":{
                 "isChild":true,
@@ -62,7 +67,8 @@
                 "link":"mouse",
                 "text":"Mouse",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "keyboard":{
                 "isChild":true,
@@ -70,7 +76,8 @@
                 "link":"keyboard",
                 "text":"Keyboard",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "plasmaScreen":{
                 "isChild":true,
@@ -78,7 +85,8 @@
                 "link":"plasmaScreen",
                 "text":"Plasma Screen",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "speakers":{
                 "isChild":true,
@@ -86,7 +94,8 @@
                 "link":"speakers",
                 "text":"Speakers",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "cpu":{
                 "isChild":true,
@@ -94,7 +103,8 @@
                 "link":"cpu",
                 "text":"CPU",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "gpu":{
                 "isChild":true,
@@ -102,7 +112,8 @@
                 "link":"gpu",
                 "text":"GPU",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "hdd":{
                 "isChild":true,
@@ -110,7 +121,8 @@
                 "link":"hdd",
                 "text":"HDD",
                 "type":"button",
-                "toolTip":""
+                "toolTip":"",
+                "position":"dropdownButton"
             },
             "ram":{
                 "isChild":true,
@@ -118,8 +130,12 @@
                 "link":"ram",
                 "text":"RAM",
                 "type":"button",
-                "toolTip":""
-            }                
+                "toolTip":"",
+                "position":"dropdownButton"
+            }
+        },
+        "pages":{
+            //TODO
         }
     }
 }
