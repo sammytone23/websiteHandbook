@@ -4,8 +4,8 @@ window.fetch('PageData.json').then((x)=>x.json()).then((pageData)=>{
 });
 
 main = function(data){
-let current = "";
-current="home";
-for (let page in data.pages.pages){
-    console.log(page)
+    let current = "";
+    for (let page in data.pages.pages){
+    console.log(page);
+    }
 }
