@@ -6,6 +6,6 @@ window.fetch('PageData.json').then((x)=>x.json()).then((pageData)=>{
 main = function(data){
 let current = "";
 current="home";
-data.pages.pages.forEach(page =>{
-    alert(page);
-});}
+for (let page in data.pages.pages){
+    console.log(page)
+}
