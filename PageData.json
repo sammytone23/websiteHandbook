@@ -1,1 +1,197 @@
-{"pages":{"links":{"home":{"isChild":false,"image":true,"src":"","link":"home","text":"Home","type":"button","position":"home","toolTip":"Go to the Home Page"},"components":{"isChild":false,"image":false,"link":"components","text":"Components","type":"hover","children":["input","output","processor","storage"],"toolTip":"","position":"dropdown"},"input":{"isChild":true,"image":false,"link":"input","text":"Input Devices","type":"hover","children":["mouse","keyboard"],"toolTip":"","position":"dropdownChild"},"output":{"isChild":true,"image":false,"link":"output","text":"Output Devices","type":"hover","children":["plasmaScreen","speakers"],"toolTip":"","position":"dropdownChild"},"processor":{"isChild":true,"image":false,"link":"processor","text":"Processing Devices","type":"hover","children":["cpu","gpu"],"toolTip":"","position":"dropdownChild"},"storage":{"isChild":true,"image":false,"link":"storage","text":"Storage Devices","type":"hover","children":["hdd","ram"],"toolTip":"","position":"dropdownChild"},"mouse":{"isChild":true,"image":false,"link":"mouse","text":"Mouse","type":"button","toolTip":"","position":"dropdownButton"},"keyboard":{"isChild":true,"image":false,"link":"keyboard","text":"Keyboard","type":"button","toolTip":"","position":"dropdownButton"},"plasmaScreen":{"isChild":true,"image":false,"link":"plasmaScreen","text":"Plasma Screen","type":"button","toolTip":"","position":"dropdownButton"},"speakers":{"isChild":true,"image":false,"link":"speakers","text":"Speakers","type":"button","toolTip":"","position":"dropdownButton"},"cpu":{"isChild":true,"image":false,"link":"cpu","text":"CPU","type":"button","toolTip":"","position":"dropdownButton"},"gpu":{"isChild":true,"image":false,"link":"gpu","text":"GPU","type":"button","toolTip":"","position":"dropdownButton"},"hdd":{"isChild":true,"image":false,"link":"hdd","text":"HDD","type":"button","toolTip":"","position":"dropdownButton"},"ram":{"isChild":true,"image":false,"link":"ram","text":"RAM","type":"button","toolTip":"","position":"dropdownButton"}},"pages":{"home":{"id":"home","title":"Home","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"components":{"id":"components","title":"Components","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"input":{"id":"input","title":"Input","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"output":{"id":"output","title":"Output","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"processor":{"id":"processor","title":"Processing","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"storage":{"id":"storage","title":"Storage","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"mouse":{"id":"mouse","title":"Mouse","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"keyboard":{"id":"keyboard","title":"Keyboard","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"plasmaScreen":{"id":"plasmaScreen","title":"Plasma Screen","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"speakers":{"id":"speakers","title":"Speakers","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"cpu":{"id":"cpu","title":"CPU","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"gpu":{"id":"gpu","title":"GPU","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"hdd":{"id":"hdd","title":"HDD","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"},"ram":{"id":"ram","title":"RAM","imgSource":"\\Images\\___.png","txt":" ummmm Lorem Ipsum?"}}}}
+{
+    "pages":{
+        "links":{
+            "home":{
+                    "isChild":false,
+                    "image":true,
+                    "src":"",
+                    "link":"home",
+                    "text":"Home",
+                    "type":"button",
+                    "position":"home",
+                    "toolTip":"Go to the Home Page"},
+                "components":{
+                    "isChild":false,
+                    "image":false,
+                    "link":"components",
+                    "text":"Components",
+                    "type":"hover",
+                    "children":["input","output","processor","storage"],
+                    "toolTip":"",
+                    "position":"dropdown"},
+                "input":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"input",
+                    "text":"Input Devices",
+                    "type":"hover",
+                    "children":["mouse","keyboard"],
+                    "toolTip":"",
+                    "position":"dropdownChild"},
+                "output":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"output",
+                    "text":"Output Devices",
+                    "type":"hover",
+                    "children":["plasmaScreen","speakers"],
+                    "toolTip":"",
+                    "position":"dropdownChild"},
+                "processor":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"processor",
+                    "text":"Processing Devices",
+                    "type":"hover",
+                    "children":["cpu","gpu"],
+                    "toolTip":"",
+                    "position":"dropdownChild"},
+                "storage":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"storage",
+                    "text":"Storage Devices",
+                    "type":"hover",
+                    "children":["hdd","ram"],
+                    "toolTip":"",
+                    "position":"dropdownChild"},
+                "mouse":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"mouse",
+                    "text":"Mouse",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "keyboard":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"keyboard",
+                    "text":"Keyboard",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "plasmaScreen":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"plasmaScreen",
+                    "text":"Plasma Screen",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "speakers":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"speakers",
+                    "text":"Speakers",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "cpu":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"cpu",
+                    "text":"CPU",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "gpu":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"gpu",
+                    "text":"GPU",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "hdd":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"hdd",
+                    "text":"HDD",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"},
+                "ram":{
+                    "isChild":true,
+                    "image":false,
+                    "link":"ram",
+                    "text":"RAM",
+                    "type":"button",
+                    "toolTip":"",
+                    "position":"dropdownButton"}
+            },
+        "pages":{
+            "home":{
+                "id":"home",
+                "title":"Home",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "components":{
+                "id":"components",
+                "title":"Components",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "input":{
+                "id":"input",
+                "title":"Input",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "output":{
+                "id":"output",
+                "title":"Output",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "processor":{
+                "id":"processor",
+                "title":"Processing",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "storage":{
+                "id":"storage",
+                "title":"Storage",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+                "mouse":{
+            "id":"mouse",
+                "title":"Mouse",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "keyboard":{
+                "id":"keyboard",
+                "title":"Keyboard",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "plasmaScreen":{
+                "id":"plasmaScreen",
+                "title":"Plasma Screen",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "speakers":{
+                "id":"speakers",
+                "title":"Speakers",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "cpu":{
+                "id":"cpu",
+                "title":"CPU",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "gpu":{
+                "id":"gpu",
+                "title":"GPU",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+            "hdd":{
+                "id":"hdd",
+                "title":"HDD",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"},
+                "ram":{
+                "id":"ram",
+                "title":"RAM",
+                "imgSource":"\\Images\\___.png",
+                "txt":" ummmm Lorem Ipsum?"
+            }
+        }
+    }
+}
