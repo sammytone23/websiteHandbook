@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
 * { box-sizing: border-box; }
 
 ul {
@@ -10,6 +11,10 @@ a {
   display: inline-block;
   color: white;
   text-decoration: none;
+}
+
+nav {
+  font-family: "sen", sans-serif;
 }
 
 nav > ul > li {
@@ -32,6 +37,10 @@ nav > ul > li > ul {
 
 nav > ul > li > ul > li:hover{
   background-color: rgb(185, 211, 121);
+}
+nav > img {
+  border: 5px;
+  border-style: solid;
 }
 
 nav > ul > li:hover > ul {
