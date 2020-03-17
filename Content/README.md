@@ -6,7 +6,7 @@
     - Mouse
     - Keyboard
 - Output
-    - Plasma screen
+    - LCD Data Projector
     - Speakers
 - Processors
     - CPU
@@ -23,16 +23,16 @@
     - ![Mouse Diagram](mouse-personal-computer.jpg) [1]
 - Definition
     - How to use it:
-        - move along surface, depress LMOUSE and RMOUSE, turn scrollwheel
+        - There are many features to a mouse; like moving the cursor, accomplished by moving the physical mouse, left and right clicking, accomplished by depressing the left or right mouse buttons. Scrolling up or down a page, like on a web page or text document, is done by rolling the scrollwheel in the middle.
     - What it does:
-        - translates movement along a surface to movement of the cursor on a computer, and presses of LMOUSE and RMOUSE to left and right clicks, and movement of scrollwheel to scrolling. Sometimes includes other buttons for macros
+        - translates movement along a surface to movement of the cursor on a computer, and presses of LMOUSE and RMOUSE to left and right clicks, and movement of scrollwheel to scrolling. Sometimes includes other buttons for macros, which are user-decided functions.
 
 ### Keyboard
 - Diagram
     - 
 - Definition
     - How to use it:
-        - Depress a key to send the labled letter or command to the computer connected to it.
+        - Depress a key to send the labled letter or command to the computer connected to it, for example, pressing the 'P' key will type a 'p' in a word prcessor, or could accomplish something else depending on the program.
     - What it does:
         - Each key is it's own key switch  that when depressed, sends a signal to the control chip inboard the keyboard, which then sends it to the computer it is connected to.
 
