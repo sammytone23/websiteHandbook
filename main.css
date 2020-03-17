@@ -46,3 +46,37 @@ nav > img {
 nav > ul > li:hover > ul {
   display: block;
 }
+
+section {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-family: "sen", sans-serif;
+}
+/* Reviews section styles */
+.how-to-use > .how-to-use-text {
+  display: inline-block;
+  width: 720px;
+  margin-left: 30px;
+}
+.how-to-use > .how-to-use-image {
+  width: 300px;
+  margin-left: 30px;
+}
+.what-it-does > .what-it-does-text {
+  display: inline-block;
+  width: 720px;
+  margin-left: 30px;
+}
+.what-it-does > .what-it-does-image {
+  width: 300px;
+  margin-left: 30px;
+}
+
+h1 {
+  display: inline-block;
+  width: auto;
+  background-color: rgb(222, 31, 66);
+  color: white;
+  padding: 5px 15px;
+  margin-left: -30px;
+}
