@@ -72,16 +72,16 @@
     - ![CPU Diagram](481px-ABasicComputer.gif) [6]
 - Definition
     - How to use it:
-        - Commands for the CPU are stored in ram, usually with the middle-man of a User Interface.
+        - Commands for the CPU are stored in RAM (Random Access Memory), and are usually used by applications to get the cpu to do calculations.
     - What it does:
-        - It makes simple calculations at extremely quick speeds, depending on the hertz of the processor, 1Hz is one calculation per second, 3GHz is 3 billion calculations per second.
+        - It makes simple calculations at extremely quick speeds, depending on the hertz of the processor, 1Hz is one calculation per second, 3GHz is approximately 3 billion calculations per second.
 
 ### GPU (Graphics Processing Unit)
 - Diagram
     - ![GPU Diagram](1200px-Generic_block_diagram_of_a_GPU.svg.png) [7]
 - Definition
     - How to use it:
-        - Similar to the CPU, Commands for the GPU are stored in the RAM, but the GPU is faster, as it is used for graphics
+        - Similar to the CPU, Commands for the GPU are stored in the RAM, but the GPU is faster, as it is used by applications to calculate graphics. it is therefore mainly used by games, or if you want some extremely fast calculations done.
     - What it does:
         - Makes simple calculations at quicker speeds than the CPU, again depending on the Hertz.
 
