@@ -8,10 +8,10 @@
 
         <nav>
             <ul>
-                <li><a href="#"><img src="Images/ms-icon-70x70.png"></a></li>
+                <li><a onclick="homeDisplay" href="#"><img src="Images/ms-icon-70x70.png"></a></li>
                 <li><a href="#">Input</a>
                         <ul>
-                            <li><a href="#">Mouse</a></li>
+                            <li><a onclick="mouseDisplay" href="#">Mouse</a></li>
                             <li><a href="#">Keyboard</a></li>
                         </ul>
                 </li>
@@ -138,6 +138,41 @@
         </section>
     </body>
 <script type="text/javascript">
+    homeDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+    }
+    mouseDisplay=function(){
+        home.style.display="none";
+        mouse.style.display="block";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+    }
+    keyboardDisplay=function(){
+        home.style.display="none";
+        mouse.style.display="none";
+        keyboard.style.display="block";
+        speaker.style.display="none";
+        projector.style.display="none";
+    }
+    speakerDisplay=function(){
+        home.style.display="none";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="block";
+        projector.style.display="none";
+    }
+    projectorDisplay=function(){
+        home.style.display="none";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="block";
+    }
     window.onload=function(){
         home.style.display="block";
         mouse.style.display="none";
