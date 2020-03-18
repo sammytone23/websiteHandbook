@@ -23,14 +23,14 @@
                 </li>
                 <li><a href="#">Processor</a>
                     <ul>
-                        <li><a href="#">CPU</a></li>
-                        <li><a href="#">GPU</a></li>
+                        <li><a onclick="cpuDisplay()" href="#">CPU</a></li>
+                        <li><a onclick="gpuDisplay()" href="#">GPU</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Storage</a>
                     <ul>
-                        <li><a href="#">HDD</a></li>
-                        <li><a href="#">RAM</a></li>
+                        <li><a onclick="hddDisplay()" href="#">HDD</a></li>
+                        <li><a onclick="ramDisplay()" href="#">RAM</a></li>
                     </ul>
                 </li>
                 <li><a onclick="referencesDisplay()" href="#">References</a>
@@ -57,7 +57,7 @@
                 </div>
             </article>
             <article class="how-to-use">
-                <img class="how-to-use-image" src="Content/432px-Generic_computer_mouse_with_scroll-wheel.jpg" alt="Mouse Picture">
+                <img class="how-to-use-image" src="Content/432px-Generic_computer_mouse_with_scrollwheel.jpg" alt="Mouse Picture">
                 <div class="how-to-use-text">
                     <h2>How to Use</h2>
                     <p>A mouse allows you to interact with programs on the computer by moving a pointer around the screen and click on items to select or choose from a menu. The main affordances of a mouse are moving the pointer, left and right clicking and scrolling. The pointer is a little icon that moves around the screen, changing its look based on the available interactions. It can be moved by sliding the mouse around the surface. if you find that you get to the edge of the surface before reaching the edge of the screen the mouse can be lifted and repositioned. A mouse typically has two or three buttons left and right click and sometimes a scroll button. The left button is used to select, click on hyperlinks, drag and drop and do the most common interactions on the computer. the right click is used for extra options that are contextual for what you are clicking on. The third button is often to be found behind the scroll on the mouse. It is used to use the mouses movement to scroll the page rather than the scroll wheel - it is an accessibility option. Scrolling up or down a page, like on a web page or text document, is done by rolling the scroll-wheel in the middle. There is a possibility of extra buttons found on the sides of a mouse. Often the functionality of these buttons is able to be set by the user.</p>
@@ -138,7 +138,7 @@
                 </div>
             </article>
         </section>
-         <section id="central-processing-unit">
+        <section id="cpu">
             <h1>Central Processing Unit (CPU)</h1>
             <article class="what-it-does">
                 <img class="what-it-does-image" src="Content/working-of-a-3LCD-projector.png" alt="Projector Diagram">
@@ -159,7 +159,7 @@
                 </div>
             </article>
         </section>
-        <section id="graphics-processing-unit">
+        <section id="gpu">
             <h1>Graphics Processing Unit</h1>
             <article class="what-it-does">
                 <img class="what-it-does-image" src="Content/working-of-a-3LCD-projector.png" alt="Projector Diagram">
@@ -179,7 +179,7 @@
                 </div>
             </article>
         </section>
-        <section id="hard-disk-drive">
+        <section id="hdd">
             <h1>Hard Disk Drive (HDD)</h1>
             <article class="what-it-does">
                 <img class="what-it-does-image" src="Content/working-of-a-3LCD-projector.png" alt="Projector Diagram">
@@ -200,7 +200,7 @@
                 </div>
             </article>
         </section>
-        <section id="random-access-memory">
+        <section id="ram">
             <h1>Random Access Memory (RAM)</h1>
             <article class="what-it-does">
                 <img class="what-it-does-image" src="Content/working-of-a-3LCD-projector.png" alt="Projector Diagram">
@@ -269,6 +269,11 @@
         keyboard.style.display="none";
         speaker.style.display="none";
         projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
     mouseDisplay=function(){
         home.style.display="none";
@@ -276,6 +281,11 @@
         keyboard.style.display="none";
         speaker.style.display="none";
         projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
     keyboardDisplay=function(){
         home.style.display="none";
@@ -283,6 +293,11 @@
         keyboard.style.display="block";
         speaker.style.display="none";
         projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
     speakerDisplay=function(){
         home.style.display="none";
@@ -290,6 +305,11 @@
         keyboard.style.display="none";
         speaker.style.display="block";
         projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
     projectorDisplay=function(){
         home.style.display="none";
@@ -297,6 +317,71 @@
         keyboard.style.display="none";
         speaker.style.display="none";
         projector.style.display="block";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
+    }
+    cpuDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
+    }
+    gpuDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
+    }
+    hddDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
+    }
+    ramDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
+    }
+    referencesDisplay=function(){
+        home.style.display="block";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
     window.onload=function(){
         home.style.display="block";
@@ -304,6 +389,11 @@
         keyboard.style.display="none";
         speaker.style.display="none";
         projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        references.style.display="none";
     }
 </script>
 </html>
