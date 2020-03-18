@@ -79,6 +79,7 @@ section {
 .what-it-does > .what-it-does-div {
   width: 30px;
   margin-left: 30px;
+  display: inline-block;
 }
 
 .what-it-does > .what-it-does-div > img {
