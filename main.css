@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+img{
+  display: inline-block;
+}
+
 nav {
   font-family: "sen", sans-serif;
 }
