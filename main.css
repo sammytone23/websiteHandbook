@@ -6,7 +6,7 @@ ul {
   padding: 0;
 }
 
-nav>a {
+li>a {
   padding: 20px;
   display: inline-block;
   color: white;
