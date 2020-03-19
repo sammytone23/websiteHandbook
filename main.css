@@ -86,6 +86,11 @@ section {
   width: 300px;
 }
 
+.trends-article{
+  display: inline-block;
+  width: 720px;
+  margin-left: 30px;
+}
 
 h1 {
   display: inline-block;
