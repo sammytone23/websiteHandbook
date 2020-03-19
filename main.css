@@ -6,7 +6,7 @@ ul {
   padding: 0;
 }
 
-a {
+nav>a {
   padding: 20px;
   display: inline-block;
   color: white;
@@ -57,6 +57,9 @@ section {
   font-family: "sen", sans-serif;
 }
 /* Reviews section styles */
+
+
+
 .how-to-use > .how-to-use-text {
   display: inline-block;
   width: 720px;
