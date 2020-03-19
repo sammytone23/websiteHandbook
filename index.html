@@ -50,6 +50,8 @@
                         <li><a onclick="ramDisplay()" href="#">RAM</a></li>
                     </ul>
                 </li>
+                <li><a onclick="trendsDisplay()" href="#">Trends</a>
+                </li>
                 <li><a onclick="referencesDisplay()" href="#">References</a>
                 </li>
             </ul>
@@ -395,6 +397,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     homeDisplay=function(){
@@ -407,6 +410,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     mouseDisplay=function(){
@@ -419,6 +423,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     keyboardDisplay=function(){
@@ -431,6 +436,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     speakerDisplay=function(){
@@ -443,6 +449,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     projectorDisplay=function(){
@@ -455,6 +462,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     cpuDisplay=function(){
@@ -467,6 +475,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     gpuDisplay=function(){
@@ -479,6 +488,7 @@
         gpu.style.display="block";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     hddDisplay=function(){
@@ -491,6 +501,7 @@
         gpu.style.display="none";
         hdd.style.display="block";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="none";
     }
     ramDisplay=function(){
@@ -503,6 +514,20 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="block";
+        trends.style.display="none";
+        references.style.display="none";
+    }
+    trendsDisplay=function(){
+        home.style.display="none";
+        mouse.style.display="none";
+        keyboard.style.display="none";
+        speaker.style.display="none";
+        projector.style.display="none";
+        cpu.style.display="none";
+        gpu.style.display="none";
+        hdd.style.display="none";
+        ram.style.display="none";
+        trends.style.display="block";
         references.style.display="none";
     }
     referencesDisplay=function(){
@@ -515,6 +540,7 @@
         gpu.style.display="none";
         hdd.style.display="none";
         ram.style.display="none";
+        trends.style.display="none";
         references.style.display="block";
     }
 </script>
